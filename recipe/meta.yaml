@@ -1,5 +1,5 @@
 {% set name = "dufte" %}
-{% set version = "0.2.27" %}
+{% set version = "0.2.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dufte-{{ version }}.tar.gz
-  sha256: 56924d2faf40921af0f888c29efedfe62c776db3b7a677961779886e99f80288
+  sha256: f3deb8fecd63b81cf3d34f6d05236806aa2b9a499399563fe42f9a074d7a0db2
 
 build:
   number: 0
